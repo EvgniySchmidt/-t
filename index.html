@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контрольная...</title>
+</head>
+<body>
+
+<div>1) является ли введенное число положительным или отрицательным. <br>
+    2) является ли оно простым (используйте технику перебора значений).  </div>
+<input type="text" placeholder="Введите число" oninput="isNegativeNumber(this, 'negativePositiveResult')">
+<span id="negativePositiveResult"></span>
+<hr>
+<div>Представьте, что вы реализуете программу для банка, которая помогает определить, погасил ли клиент кредит или нет.</div>
+<input id="creditSumma" type="text" placeholder="Введите число">
+<button onclick="credit('creditSumma', 'creditResult')">Оплатить</button>
+<span id="creditResult"></span>
+<hr>
+<script src="index.js"></script>
+</body>
+</html>
